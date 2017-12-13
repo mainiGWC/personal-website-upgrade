@@ -1,3 +1,8 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
 div {
   background-color: pink;
   text-align: center;
@@ -20,11 +25,15 @@ ul {
 }
 
 li {
-  padding: 0px 5px;
+  padding: 0px 20px;
 }
 
 img {
   height: 400px;
   border-radius: 25px;
   margin: 16px 0px;
+}
+
+p {
+  margin: 16px 200px;
 }
