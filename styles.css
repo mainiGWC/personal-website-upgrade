@@ -9,6 +9,10 @@ div {
   padding: 20px 0px;
 }
 
+.bio {
+  height: 700px;
+}
+
 h1 {
   color: white;
   font-family: 'Pacifico', cursive;
@@ -21,11 +25,13 @@ ul {
   display: flex;
   list-style: none;
   justify-content: center;
+  align-items: center;
   padding: 0;
 }
 
 li {
   padding: 0px 20px;
+  color: red;
 }
 
 a {
@@ -76,4 +82,9 @@ p {
 }
 .blog-entry h4 {
   margin: 16px 200px 0px 200px;
+}
+
+#small-logo {
+  height: 25px;
+  margin: 0;
 }
