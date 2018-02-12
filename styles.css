@@ -61,3 +61,19 @@ p {
 #bottom-padding {
   height: 20px;
 }
+
+#top-padding {
+  height: 16px;
+}
+
+.blog-entry {
+  text-align: left;
+}
+
+.blog-entry h1 {
+  font-family: 'Arial', sans-serif;
+  margin: auto 200px;
+}
+.blog-entry h4 {
+  margin: 16px 200px 0px 200px;
+}
