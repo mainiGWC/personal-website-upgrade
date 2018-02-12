@@ -10,7 +10,7 @@ div {
 }
 
 .bio {
-  height: 700px;
+  height: 600px;
 }
 
 h1 {
@@ -82,6 +82,10 @@ p {
 }
 .blog-entry h4 {
   margin: 16px 200px 0px 200px;
+}
+
+#footer-message li {
+  padding: 0px 2px;
 }
 
 #small-logo {
