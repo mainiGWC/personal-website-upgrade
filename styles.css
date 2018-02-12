@@ -42,3 +42,18 @@ img {
 p {
   margin: 16px 200px;
 }
+
+.about {
+  display: flex;
+  margin: 0px;
+  padding: 0px 200px;
+}
+
+.about img {
+  height: 200px;
+}
+
+.about p {
+  width: 300px;
+  margin: 16px auto;
+}
