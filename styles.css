@@ -46,7 +46,7 @@ p {
 .about {
   display: flex;
   margin: 0px;
-  padding: 0px 200px;
+  padding: 0px 350px;
 }
 
 .about img {
@@ -55,5 +55,9 @@ p {
 
 .about p {
   width: 300px;
-  margin: 16px auto;
+  margin: auto;
+}
+
+#bottom-padding {
+  height: 20px;
 }
