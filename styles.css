@@ -49,40 +49,12 @@ p {
   margin: 16px 200px;
 }
 
-.about {
-  display: flex;
-  margin: 0px;
-  padding: 0px 350px;
-}
-
-.about img {
-  height: 200px;
-}
-
-.about p {
-  width: 300px;
-  margin: auto;
-}
-
 #bottom-padding {
   height: 20px;
 }
 
 #top-padding {
   height: 16px;
-}
-
-.blog-entry {
-  text-align: left;
-}
-
-.blog-entry h1 {
-  font-family: 'Arial', sans-serif;
-  margin: auto 200px;
-}
-
-.blog-entry h4 {
-  margin: 16px 200px 0px 200px;
 }
 
 #footer-message li {
@@ -99,4 +71,17 @@ p {
   list-style: none;
   justify-content: center;
   align-items: center;
+  background-color: lavender;
+}
+
+.photo-collage > div > h3 {
+    color: navy;
+}
+
+.photo-collage > div > p {
+  font-family: 'Pacifico', cursive;
+}
+
+#dog-photo, #michigan-photo {
+ background-color: lavender; 
 }
