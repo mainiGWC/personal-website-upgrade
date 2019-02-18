@@ -3,8 +3,7 @@
 
 ## Project Requirements
 Students' projects should:
-- Have three HTML pages for the website: “Home” page; “About Me” page; and “Blog” page.
-- Contain a navigation menu with links to: “Home”; “About Me”; and “Blog”.
+- Have at least one HTML page for the website.
 - Have all text on the page contained within appropriate HTML elements.
 - Apply style to elements using CSS. As much as possible, try to apply styles using class and id selectors, rather than tag names.
 - Use at least one implementation of Flexbox for layout.

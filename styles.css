@@ -80,6 +80,7 @@ p {
   font-family: 'Arial', sans-serif;
   margin: auto 200px;
 }
+
 .blog-entry h4 {
   margin: 16px 200px 0px 200px;
 }
@@ -91,4 +92,11 @@ p {
 #small-logo {
   height: 25px;
   margin: 0;
+}
+
+.photo-collage {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
 }
