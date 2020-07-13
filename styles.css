@@ -12,14 +12,17 @@ div {
 .bio {
   height: 600px;
 }
-
+/*margin represents how much space you want
+  between the top of the page and your title*/
+ /*TODO - h1: remove text-shadow if it doesn't look good*/
+/*h1 represents the title "Mansi's Portfolio"*/
 h1 {
   color: blue;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arima Madurai', cursive;
   margin: 0;
   text-shadow: 2px 2px #ffffff;
 }
-  
+
 ul {
   width: 100%;
   display: flex;
