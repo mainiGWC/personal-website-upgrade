@@ -21,7 +21,7 @@ h1 {
   font-family: 'Arima Madurai', cursive;
   margin: 0;
   font-size:300%;
-  text-shadow: 2px 2px #ffffff;
+  text-shadow: 0.6vw 0.35vh #ffffff;
   display:flex;
   justify-content: flex-start;
 }
