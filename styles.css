@@ -18,9 +18,12 @@ div {
 /*h1 represents the title "Mansi's Portfolio"*/
 h1 {
   color: black;
-  font-family: 'Hepta Slab', serif;
+  font-family: 'Arima Madurai', cursive;
   margin: 0;
+  font-size:300%;
   text-shadow: 2px 2px #ffffff;
+  display:flex;
+  justify-content: flex-start;
 }
 
 ul {
@@ -50,7 +53,7 @@ img {
 
 p {
   margin: 16px 200px;
-  font-size: 6vh;
+  font-size: 100%;
   
 }
 
