@@ -17,8 +17,8 @@ div {
  /*TODO - h1: remove text-shadow if it doesn't look good*/
 /*h1 represents the title "Mansi's Portfolio"*/
 h1 {
-  color: blue;
-  font-family: 'Arima Madurai', cursive;
+  color: black;
+  font-family: 'Hepta Slab', serif;
   margin: 0;
   text-shadow: 2px 2px #ffffff;
 }
@@ -50,6 +50,8 @@ img {
 
 p {
   margin: 16px 200px;
+  font-size: 6vh;
+  
 }
 
 #bottom-padding {
