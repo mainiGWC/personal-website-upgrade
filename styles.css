@@ -4,7 +4,7 @@ body {
 }
 
 div {
-  background-color: pink;
+  background-color: white;
   text-align: center;
   padding: 20px 0px;
 }
@@ -18,7 +18,7 @@ div {
 /*h1 represents the title "Mansi's Portfolio"*/
 h1 {
   color: black;
-  font-family: 'Arima Madurai', cursive;
+  font-family: 'Roboto Slab', serif;
   margin: 0;
   font-size:300%;
   text-shadow: 0.6vw 0.35vh #ffffff;
@@ -79,7 +79,7 @@ p {
   list-style: none;
   justify-content: center;
   align-items: center;
-  background-color: lavender;
+  background-color: white;
 }
 
 .photo-collage > div > h3 {
@@ -90,6 +90,6 @@ p {
   font-family: 'Pacifico', cursive;
 }
 
-#dog-photo, #michigan-photo {
- background-color: lavender; 
+#adventureImages, #michigan-photo {
+ background-color: white; 
 }
