@@ -23,9 +23,7 @@ h1 {
   font-size:300%;
   text-shadow: 0.6vw 0.35vh #ffffff;
   display:flex;
-  list-style: none;
-  justify-content: flex-start;
-  align-items: center;
+  padding-left: 2.8%;
 }
 
 ul {
