@@ -8,12 +8,13 @@ div {
   text-align: center;
   padding: 20px 0px;
 }
+#snow{
+  position:relative;
+  width: 70%;
+  height: auto;
+}
 
 .bio {
-  position: relative;
-  width: 40%;
-  left: 30%;
-  top: 30%;
   border-radius: 20px;
 }
 /*margin represents how much space you want
@@ -69,11 +70,6 @@ p {
 #top-padding {
   height: 16px;
 }
-
-#footer-message li {
-  padding: 0px 2px;
-}
-
 #small-logo {
   height: 25px;
   margin: 0;
