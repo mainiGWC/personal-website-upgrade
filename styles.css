@@ -10,7 +10,8 @@ div {
 }
 
 .bio {
-  height: 600px;
+  width: 100vw;
+  height: 100vh;
 }
 /*margin represents how much space you want
   between the top of the page and your title*/
