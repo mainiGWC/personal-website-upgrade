@@ -30,9 +30,10 @@ ul {
   width: 100%;
   display: flex;
   list-style: none;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
-  padding: 0;
+  padding: 1%;
+  padding-right: 5%;
 }
 
 li {
