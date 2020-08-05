@@ -11,7 +11,7 @@ div {
 /* Image of me in the snow */
 #snow{
   position:relative;
-  width: 70%;
+  width: 50%;
   height: auto;
 }
 
@@ -34,14 +34,22 @@ h1 {
   position:relative;
   width: 6%;
   height: auto;
+  padding-right: 2%;
 }
+
+.navigationTabs{
+  position:relative;
+  font-size: 1.75vw;
+  
+}
+
 ul {
   width: 100%;
   display: flex;
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  background-color:#003462;
+  background-color: white;
   padding: 1%;
   padding-right: 5%;
   font-family: 'Eczar', serif;
@@ -54,7 +62,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #003462;
 }
 
 img {
@@ -64,8 +72,9 @@ img {
 }
 
 p {
-  margin: 16px 200px;
+  margin: 1% 20%;
   font-size: 100%;
+  font-family: 'Eczar', serif;
   
 }
 
