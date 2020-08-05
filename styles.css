@@ -103,6 +103,7 @@ p {
   text-align:center;
   cursor:pointer;
   font-family: 'Playfair Display', serif;
+  font-size: 150%;
   border-radius: 15px;
 }
 
