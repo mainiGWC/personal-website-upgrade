@@ -41,8 +41,10 @@ ul {
   list-style: none;
   justify-content: space-around;
   align-items: center;
+  background-color:navy;
   padding: 1%;
   padding-right: 5%;
+  
 }
 
 li {
