@@ -80,34 +80,15 @@ p {
   
 }
 
-#bottom-padding {
-  height: 20px;
+.PastAdventures{
+  position:relative;
+  width:50%;
 }
 
-#top-padding {
-  height: 16px;
-}
-#small-logo {
-  height: 25px;
-  margin: 0;
-}
-
-.photo-collage {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-}
-
-.photo-collage > div > h3 {
-    color: navy;
-}
-
-.photo-collage > div > p {
-  font-family: 'Pacifico', cursive;
-}
-
-#adventureImages, #michigan-photo {
- background-color: white; 
+.btn{
+  position:absolute;
+  top:50%;
+  left:50%;
+  color:white;
+  cursor:pointer;
 }
