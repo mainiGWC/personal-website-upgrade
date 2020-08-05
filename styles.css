@@ -26,10 +26,9 @@ h1 {
   color: black;
   font-family: 'Roboto Slab', serif;
   margin: 0;
-  font-size:200%;
-  text-shadow: 0.6vw 0.35vh #ffffff;
-
-  padding-right: 5000000000%
+  font-size: 4vw;
+  position:relative;
+ 
 }
 #logo{
   position:relative;
