@@ -24,7 +24,7 @@ div {
 /*h1 represents the title "Mansi's Portfolio"*/
 h1 {
   color: black;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Playfair Display', serif;
   margin: 0;
   font-size: 4vw;
   position:relative;
@@ -32,7 +32,7 @@ h1 {
 }
 #logo{
   position:relative;
-  width: 8%;
+  width: 6%;
   height: auto;
 }
 ul {
@@ -41,7 +41,7 @@ ul {
   list-style: none;
   justify-content: space-around;
   align-items: center;
-  background-color:navy;
+  background-color:#003462;
   padding: 1%;
   padding-right: 5%;
   font-family: 'Eczar', serif;
