@@ -26,25 +26,21 @@ h1 {
   color: #003462;
   font-family: 'Playfair Display', serif;
   margin: 0;
-  font-size: 4vw;
+  font-size: 3.5vw;
   position:relative;
  
 }
-#logoClick{
-  background-image:url(https://cdn.glitch.com/42e61ca0-8854-4f03-b49c-80f4a8e7c33b%2FM%20logo%202020%20Version%20-%20dark%20blue.jpg?v=1596603376111);
-  
-
-}
 #logoImage{
   position:relative;
-  width: 6%;
+  width: 5%;
   height: auto;
   padding-right: 2%;
+  display:inline-block;
 }
 
 .navigationTabs{
   position:relative;
-  font-size: 1.75vw;
+  font-size: 1.5vw;
   
 }
 
