@@ -83,6 +83,27 @@ p {
 .PastAdventures{
   position:relative;
   width:50%;
+  max-width:100%;
+}
+
+.PastAdventures img{
+  width: 100%;
+  height:auto;
+/*   position:relative; */
+}
+
+.PastAdventures .btn{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  -ms-translate: translate(-50%, -50%);
+  background-color: white;
+  color:black;
+  text-align:center;
+  cursor:pointer;
+  font-family: 'Playfair Display', serif;
+  border-radius: 15px;
 }
 
 .btn{
