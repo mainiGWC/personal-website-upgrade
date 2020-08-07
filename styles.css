@@ -53,7 +53,7 @@ ul {
   background-color: white;
   padding: 1%;
   padding-right: 5%;
-  font-family: 'Eczar', serif;
+  font-family: 'Alegreya Sans', sans-serif;
 }
 
 li {
@@ -75,7 +75,7 @@ img {
 p {
   margin: 1% 20%;
   font-size: 1.5vw;
-  font-family: 'Eczar', serif;
+  font-family: 'Alegreya Sans', sans-serif;
   position: relative;
   
 }
@@ -111,7 +111,6 @@ p {
 .btn{
   position:absolute;
   top:50%;
-  left:50%;
   color:white;
   cursor:pointer;
 }
@@ -149,7 +148,7 @@ h2 {
 
 .answer-choice .btn{
   position:absolute;
-  transform:translate(2.5em, -8em);
+  transform:translate(15em, -8em);
   background-color: transparent;
   border-color:black;
   color:black;
