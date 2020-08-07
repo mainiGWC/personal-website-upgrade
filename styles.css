@@ -115,3 +115,53 @@ p {
   color:white;
   cursor:pointer;
 }
+
+
+/* CSS code from Personality Quiz for Past Adventures Image and button */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h2 {
+  margin-top: 2em; 
+  padding-left: 1.5%;
+  font-family: 'Lora', serif;
+}
+
+
+/* Question 1 + Answer 1  */
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  justify-content: space-around;
+}
+
+.answer-choice img {
+  height: 15em;
+  width: 15em;
+  object-fit:cover;
+  
+}
+
+
+.answer-choice .btn{
+  position:absolute;
+  transform:translate(2.5em, -8em);
+  background-color: transparent;
+  border-color:black;
+  color:black;
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align:center;
+  cursor:pointer;
+  font-size: 100%;
+  padding: 0.5%;
+}
+
+.answer-choice .btn:hover{
+  background-color: black;
+  color: white;
+  box-shadow: 0px 5px 10px grey;
+}
