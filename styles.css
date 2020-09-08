@@ -168,18 +168,18 @@ h2 {
 }
 
 /* Copy code from w3school */
-.container {
+.activity1Image {
   position: relative;
   max-width: 30%;
 }
 
-.container img {
+.activity1Image img {
   height: 15em;
   width: 15em;
   object-fit:cover;
 }
 
-.container .activities {
+.activity1Image .activities {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -190,12 +190,15 @@ h2 {
   border-color: black;
   color: black;
   font-size: 100%;
-  padding: 0.5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
   cursor: pointer;
   text-align: center;
 }
 
-.container .activities:hover {
+.activity1Image .activities:hover {
   background-color: black;
   color: white;
   box-shadow: 0px 5px 10px grey;
