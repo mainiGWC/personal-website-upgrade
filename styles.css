@@ -170,8 +170,9 @@ h2 {
 /* Activity images and buttons CSS */
 .activity1Image {
   position: relative;
-  lis
   max-width: 30%;
+  float: left;
+  padding: 3%;
 }
 
 .activity1Image img {
