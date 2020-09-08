@@ -174,27 +174,29 @@ h2 {
 }
 
 .container img {
-  width: 80%;
-  height: 5%;
+  height: 15em;
+  width: 15em;
   object-fit:cover;
 }
 
-.container .btn {
+.container .activities {
   position: absolute;
   top: 50%;
   left: 50%;
+  font-family: 'Playfair Display', serif;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
+  background-color: transparent;
+  border-color: black;
+  color: black;
+  font-size: 100%;
+  padding: 0.5%;
   cursor: pointer;
-  border-radius: 5px;
   text-align: center;
 }
 
-.container .btn:hover {
+.container .activities:hover {
   background-color: black;
+  color: white;
+  box-shadow: 0px 5px 10px grey;
 }
