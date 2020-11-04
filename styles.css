@@ -41,12 +41,29 @@ h1 {
 }
 
 .navigationTabs{
-  position:relative;
+  display: inline;
+  position: relative;
   font-size: 1.5vw;
+  overflow: hidden;
 }
 /*TODO: fix highlight under the nav elements */
-.navigationTabs a:hover{
+.navigationTabs a:after{
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
   border-bottom: 0.3vh solid blue;
+}
+
+.navigationTabs:hover:after,
+.navigationTabs:focus:after,
+.navigationTabs:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 
 ul {
