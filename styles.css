@@ -43,7 +43,10 @@ h1 {
 .navigationTabs{
   position:relative;
   font-size: 1.5vw;
-  
+}
+
+u1 .navigationTabs:hover{
+  border-bottom: 10px solid blue;
 }
 
 ul {
