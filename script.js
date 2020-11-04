@@ -8,7 +8,7 @@ container.onmouseover = container.onmouseout = homeHover;
 function homeHover(H)
 {
  if (H.type =='mouseover'){
-   H.target.style.background = "#C9C9F4"
+   H.target.style.background = "#003462"
  }
   if (H.type =='mouseout'){
    H.target.style.background = '' 
