@@ -44,21 +44,11 @@ h1 {
   position: relative;
   font-size: 1.5vw;
   }
-/*TODO: fix highlight under the nav elements */
-.navigationTabs a:after{
-  transition-duration: 0.3s;
-  transition-timing-function: ease-out;
-  border-bottom: 0.3vh solid blue;
+
+.navigationTabs:hover {
+  border-bottom: 3px solid blue;
 }
 
-/* .navigationTabs:hover:after,
-.navigationTabs:focus:after,
-.navigationTabs:active:after {
-  left: 0;
-  right: auto;
-  width: 100%;
-}
- */
 ul {
   width: 100%;
   display: flex;
@@ -72,7 +62,6 @@ ul {
 }
 
 li {
-  padding: 0px 20px;
   color: white;
 }
 
@@ -101,19 +90,19 @@ p {
 
 /*Creates border around nav elements on highlight for ABOUT */
 #container1{
-  padding: 10px;
+  padding: 20%;
   border-radius: 10px;
 }
 
 /*Creates border around nav elements on highlight for ART */
 #container2{
-  padding: 10px;
+  padding: 20%;
   border-radius: 10px;
 }
 
 /*Creates border around nav elements on highlight for COMPUTER SCIENCE */
 #container3{
-  padding: 10px;
+  padding: 10%;
   border-radius: 10px;
 }
 
@@ -158,9 +147,6 @@ p {
 .activity1Image {
   position: relative;
   float: left;
-  justify-content: center;
-  display:flex;
-
 }
 
 .activity1Image img {
