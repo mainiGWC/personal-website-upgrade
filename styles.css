@@ -46,7 +46,7 @@ h1 {
   }
 
 .navigationTabs:hover {
-  border-bottom: 3px solid blue;
+  border-bottom: 4px solid #003462;
 }
 
 ul {
@@ -71,9 +71,9 @@ a {
 }
 
 img {
-  height: 400px;
+  height: auto;
   border-radius: 35px;
-  margin: 16px 0px;
+  margin: 1% 0px;
 }
 
 p {
@@ -81,29 +81,6 @@ p {
   font-size: 1.5vw;
   font-family: 'Alegreya Sans', sans-serif;
   position: relative;
-}
-
-/*Creates border around nav elements on highlight for HOME */
-#container{
-  padding: 20%;
-}
-
-/*Creates border around nav elements on highlight for ABOUT */
-#container1{
-  padding: 20%;
-  border-radius: 10px;
-}
-
-/*Creates border around nav elements on highlight for ART */
-#container2{
-  padding: 20%;
-  border-radius: 10px;
-}
-
-/*Creates border around nav elements on highlight for COMPUTER SCIENCE */
-#container3{
-  padding: 10%;
-  border-radius: 10px;
 }
 
 .PastAdventures{
