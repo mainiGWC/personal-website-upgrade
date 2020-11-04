@@ -44,9 +44,9 @@ h1 {
   position:relative;
   font-size: 1.5vw;
 }
-
-u1 .navigationTabs:hover{
-  border-bottom: 10px solid blue;
+/*TODO: fix highlight under the nav elements */
+.navigationTabs a:hover{
+  border-bottom: 0.3vh solid blue;
 }
 
 ul {
@@ -87,7 +87,6 @@ p {
 /*Creates border around nav elements on highlight for HOME */
 #container{
   padding: 20%;
-  border-radius: 01%;
 }
 
 /*Creates border around nav elements on highlight for ABOUT */
