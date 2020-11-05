@@ -1,16 +1,15 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
 }
 
 div {
   background-color: white;
   text-align: center;
-
 }
 /* Image of me in the snow */
-#snow{
-  position:relative;
+#snow {
+  position: relative;
   width: 55%;
   height: auto;
 }
@@ -20,30 +19,29 @@ div {
 }
 /*margin represents how much space you want
   between the top of the page and your title*/
- /*TODO - h1: remove text-shadow if it doesn't look good*/
+/*TODO - h1: remove text-shadow if it doesn't look good*/
 /*h1 represents the title "Mansi's Portfolio"*/
 h1 {
   color: #003462;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   margin: 0;
   font-size: 3.5vw;
-  position:relative;
- 
+  position: relative;
 }
 
 /* Logo position and sizing */
-#logoImage{
-  position:relative;
+#logoImage {
+  position: relative;
   width: 5%;
   height: auto;
   padding-right: 2%;
-  display:inline-block;
+  display: inline-block;
 }
 
-.navigationTabs{
+.navigationTabs {
   position: relative;
   font-size: 1.5vw;
-  }
+}
 
 .navigationTabs:hover {
   border-bottom: 4px solid #003462;
@@ -58,7 +56,7 @@ ul {
   background-color: white;
   padding: 1%;
   padding-right: 5%;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
 }
 
 li {
@@ -79,46 +77,44 @@ img {
 p {
   margin: 1% 20%;
   font-size: 1.5vw;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: "Alegreya Sans", sans-serif;
   position: relative;
 }
 
-.PastAdventures{
-  position:relative;
-  width:50%;
-  max-width:100%;
+.PastAdventures {
+  position: relative;
+  width: 50%;
+  max-width: 100%;
 }
 
-.PastAdventures img{
+.PastAdventures img {
   width: 100%;
   display: block;
-/*   position:relative; */
+  /*   position:relative; */
 }
 
-.PastAdventures .btn{
-  position:absolute;
+.PastAdventures .btn {
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform:translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   -ms-translate: translate(-50%, -50%);
   background-color: white;
-  color:black;
-  text-align:center;
-  cursor:pointer;
-  font-family: 'Playfair Display', serif;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
   font-size: 150%;
   padding: 2%;
   border-radius: 15px;
 }
 
-.btn{
-  position:absolute;
-  top:50%;
-  color:white;
-  cursor:pointer;
+.btn {
+  position: absolute;
+  top: 50%;
+  color: white;
+  cursor: pointer;
 }
-
-
 
 /* Activity images and buttons CSS: Graphic Design, UX/UI Design, Computer Science */
 .activity1Image {
@@ -127,16 +123,16 @@ p {
 }
 
 .activity1Image img {
-/*   height: 15em;
+  /*   height: 15em;
   width: 15em; */
-/*   object-fit:cover; */
+  /*   object-fit:cover; */
 }
 
 .activity1Image .activities {
   position: absolute;
   top: 50%;
   left: 50%;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: transparent;
